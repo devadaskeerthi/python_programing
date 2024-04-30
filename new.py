@@ -8,7 +8,7 @@ while i<length:
     for j in range(0,k):
         new_l.append(l[i])
         i+=1
-        print(new_l)
+        
     sum+=max(new_l)
     new_l.clear()
 print(sum)
