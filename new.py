@@ -9,7 +9,5 @@ while i<length:
     for j in range(0,k):
         new_l.append(l[i])
         i+=1
-        
-    sum.append(max(new_l))
+    print(new_l,"-->",max(new_l))
     new_l.clear()
-print(sum)
