@@ -1,8 +1,9 @@
-l=[1,2,3,4,5,6,7,8,9]
+l = list(map(int, input("Enter a list of numbers separated by spaces: ").split()))
+
 length=len(l)
 new_l=[]
 i=0
-k=3
+k=int(input("Enter partition limit: "))
 sum=[]
 while i<length:
     for j in range(0,k):
